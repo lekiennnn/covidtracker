@@ -6,7 +6,7 @@ import retrofit2.http.Headers
 import retrofit2.http.Query
 
 interface CovidNewsAPI {
-    @GET("api/articles")
+    @GET("articles")
     suspend fun getCovidNews(): Response<CovidNewsApiResponse>
 }
 

@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Do an to</string>
+    <string name="app_name">HUGE PROJ</string>
+    <string name="no_data_available_for_the_selected_date">Không có dữ liệu cho ngày này</string>
+    <string name="please_choose_a_date">Hãy chọn một ngày</string>
+    <string name="global_data">Dữ liệu toàn cầu</string>
+    <string name="country_data">Dữ liệu quốc gia</string>
+    <string name="confirmed">Số ca bệnh</string>
+    <string name="deaths">Số người tử vong</string>
+    <string name="active">Đang điều trị</string>
+    <string name="fatality_rate">Tỉ lệ tử vong</string>
 </resources>

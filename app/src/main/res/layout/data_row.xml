@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Confirmed" />
+            android:text="@string/confirmed" />
 
         <View
             android:layout_width="1dp"
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Deaths" />
+            android:text="@string/deaths" />
 
         <View
             android:layout_width="1dp"
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Active" />
+            android:text="@string/active" />
 
         <View
             android:layout_width="1dp"
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Fatality Rate" />
+            android:text="@string/fatality_rate" />
 
     </LinearLayout>
 

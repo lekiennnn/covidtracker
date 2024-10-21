@@ -54,7 +54,7 @@ class CovidNewsFragment : Fragment(){
 //            .build()
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("")
+            .baseUrl("https://covidnewsapi.onrender.com/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 

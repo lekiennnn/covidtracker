@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">HUGE PROJ</string>
+    <string name="no_data_available_for_the_selected_date">No data available for the selected date</string>
+    <string name="please_choose_a_date">Please choose a date</string>
+    <string name="global_data">Global Data</string>
+    <string name="country_data">Country Data</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="deaths">Deaths</string>
+    <string name="active">Active</string>
+    <string name="fatality_rate">Fatality Rate</string>
 </resources>

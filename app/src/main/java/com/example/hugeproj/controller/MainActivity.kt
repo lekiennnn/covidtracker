@@ -30,7 +30,7 @@ import com.google.gson.GsonBuilder
 import org.w3c.dom.Text
 import java.util.Calendar
 
-class MainActivity : AppCompatActivity(){
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -45,22 +45,20 @@ class MainActivity : AppCompatActivity(){
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottomNav)
 
         bottomNav.setOnItemSelectedListener { item ->
-            when (item.itemId){
+            when (item.itemId) {
                 R.id.navigation_covid_data -> viewPager.currentItem = 0
                 R.id.navigation_covid_news -> viewPager.currentItem = 1
             }
             true
         }
 
-        viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback(){
+        viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
-                when (position){
+                when (position) {
                     0 -> bottomNav.selectedItemId = R.id.navigation_covid_data
                     1 -> bottomNav.selectedItemId = R.id.navigation_covid_news
                 }
             }
         })
     }
-
 }
-
