@@ -1,4 +1,4 @@
-package com.example.hugeproj.controller
+package com.example.hugeproj.view
 
 import android.view.LayoutInflater
 import android.view.View

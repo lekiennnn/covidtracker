@@ -1,16 +1,14 @@
-package com.example.hugeproj
+package com.example.hugeproj.view
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView.OnItemClickListener
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.ViewHolder
+import com.example.hugeproj.R
 import com.example.hugeproj.model.Article
 import com.squareup.picasso.Picasso
-import org.w3c.dom.Text
 
 class CovidNewsAdapter(private var CovidNewsList: List<Article>, private val onItemClickListener: (String) -> Unit) : RecyclerView.Adapter<CovidNewsHolder>() {
 

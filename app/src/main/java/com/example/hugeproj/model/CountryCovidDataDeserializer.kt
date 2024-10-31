@@ -1,7 +1,5 @@
-package com.example.hugeproj.controller
+package com.example.hugeproj.model
 
-import com.example.hugeproj.model.CountryCovidDataApiResponse
-import com.example.hugeproj.model.CountryCovidData
 import com.google.gson.*
 import java.lang.reflect.Type
 

@@ -1,4 +1,4 @@
-package com.example.hugeproj.controller
+package com.example.hugeproj.view
 
 import android.app.DatePickerDialog
 import android.os.Bundle
@@ -15,6 +15,8 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hugeproj.R
+import com.example.hugeproj.model.CountryCovidDataDeserializer
+import com.example.hugeproj.model.CovidDataDeserializer
 import com.example.hugeproj.model.CountryCovidDataApiResponse
 import com.example.hugeproj.model.CovidDataAPI
 import com.example.hugeproj.model.GlobalCovidDataApiResponse
@@ -220,6 +222,6 @@ class CovidDataFragment : Fragment(), AdapterView.OnItemSelectedListener {
     }
 
     override fun onNothingSelected(parent: AdapterView<*>?) {
-        // Do nothing
+        // Do nothing hehe
     }
 }

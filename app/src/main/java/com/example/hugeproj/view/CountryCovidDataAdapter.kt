@@ -1,4 +1,4 @@
-package com.example.hugeproj.controller
+package com.example.hugeproj.view
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,9 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hugeproj.R
-import com.example.hugeproj.model.Country
 import com.example.hugeproj.model.CountryCovidData
-import org.w3c.dom.Text
 
 class CountryCovidDataAdapter(
     private var covidDataList: List<CountryCovidData>,

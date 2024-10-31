@@ -1,34 +1,11 @@
-package com.example.hugeproj.controller
+package com.example.hugeproj.view
 
-import android.app.DatePickerDialog
 import android.os.Bundle
-import android.util.Log
-import android.view.View
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.Spinner
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.lifecycleScope
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.example.hugeproj.R
-import com.example.hugeproj.ViewPagerAdapter
-import com.example.hugeproj.model.CountryCovidDataApiResponse
-import com.example.hugeproj.model.CovidDataAPI
-import com.example.hugeproj.model.GlobalCovidDataApiResponse
+import com.example.hugeproj.view.ViewPagerAdapter
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
-import com.google.gson.GsonBuilder
-import org.w3c.dom.Text
-import java.util.Calendar
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
